@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16sp"
+    android:layout_marginRight="16sp"
+    android:layout_marginLeft="16sp"
+    android:layout_marginBottom="16sp">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:id="@+id/studen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/student1"/>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLihatData"
+        android:background="@drawable/stylebutton1"
+        android:drawableLeft="@drawable/ic_archive_black_24dp"
+        android:text="LIHAT DATA"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/studen"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInputData"
+        android:background="@drawable/stylebutton2"
+        android:drawableLeft="@drawable/ic_add_box_black_24dp"
+        android:text="INPUT DATA"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnLihatData"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInformasi"
+        android:background="@drawable/stylebutton3"
+        android:drawableLeft="@drawable/ic_info_black_24dp"
+        android:text="INFORMASI"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnInputData"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

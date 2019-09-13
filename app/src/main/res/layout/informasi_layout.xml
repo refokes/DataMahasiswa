@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="#F5E4E4">
+    <TextView
+        android:id="@+id/tugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tugas Pwpb"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Immanuel Dan Rizki Arya Ramadhan"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tugas"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XlI RPL 3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/nama"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
